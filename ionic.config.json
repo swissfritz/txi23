@@ -1,0 +1,7 @@
+{
+  "name": "txi22",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
