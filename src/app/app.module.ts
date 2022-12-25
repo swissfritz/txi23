@@ -10,7 +10,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { Platform } from '@ionic/angular';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { Camera } from '@ionic-native/camera/ngx';
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
+import { EmailComposer } from '@awesome-cordova-plugins/email-composer/ngx';
+import { WebView } from '@ionic-native/ionic-webview/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,7 +22,10 @@ import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
     Platform,
     StatusBar,
     SplashScreen,
+    Camera,
     InAppBrowser,
+    EmailComposer,
+    WebView,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent],
