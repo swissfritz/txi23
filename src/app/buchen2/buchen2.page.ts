@@ -29,7 +29,6 @@ export class Buchen2Page implements OnInit {
         if (this.router.getCurrentNavigation().extras.state) {
           this.mes1 = this.router.getCurrentNavigation().extras.state.m1;
         }
-        console.log('Message 1: ', this.mes1);
       });
     }
 
