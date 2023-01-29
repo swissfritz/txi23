@@ -109,4 +109,7 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
         <string>Fotos werden zum Versand gespeichert</string>
     </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="ITSAppUsesNonExemptEncryption">
+        <false/>
+    </edit-config>
 </widget>
