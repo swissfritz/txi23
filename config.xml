@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="at.taxoil.app2016" ios-CFBundleVersion="3.3.0" version="3.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="at.taxoil.app2016" ios-CFBundleVersion="3.3.1" version="3.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Taxoil</name>
     <description>Die Lenker-App von Taxoil</description>
     <author email="hi@ionicframework.com" href="http://ionicframework.com/">Ionic Framework Team</author>
@@ -110,6 +110,6 @@
         <string>Fotos werden zum Versand gespeichert</string>
     </edit-config>
     <edit-config file="*-Info.plist" mode="merge" target="ITSAppUsesNonExemptEncryption">
-        <false/>
+        <false />
     </edit-config>
 </widget>
