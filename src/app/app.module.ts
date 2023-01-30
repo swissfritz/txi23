@@ -14,6 +14,7 @@ import { Camera } from '@ionic-native/camera/ngx';
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { EmailComposer } from '@awesome-cordova-plugins/email-composer/ngx';
 import { WebView } from '@ionic-native/ionic-webview/ngx';
+import { GoogleMaps } from '@ionic-native/google-maps/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -26,6 +27,7 @@ import { WebView } from '@ionic-native/ionic-webview/ngx';
     InAppBrowser,
     EmailComposer,
     WebView,
+    GoogleMaps,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent],

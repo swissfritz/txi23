@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+import { GoogleMaps, GoogleMapsEvent, LatLng, MarkerOptions, Marker } from '@ionic-native/google-maps/ngx';
+import { Platform } from '@ionic/angular';
+
+
 declare let google;
 
 @Component({
@@ -15,13 +19,20 @@ export class AnfahrtPage implements OnInit {
   }
 
   ionViewDidEnter() {
-    this.map = new google.maps.Map(document.getElementById('map'), {
-      center: { lat: 48.266512, lng: 16.449592 },
-      zoom: 15
-    });
-    this.marker = new google.maps.Marker({
-      position: { lat: 48.266512, lng: 16.449592 },
-      map: this.map
-    });
+    function initMap() {
+      const myLatLng = {
+        lat: 48.266512,
+        lng: 16.449592
+      };
+      this.map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: 48.266512, lng: 16.449592 },
+        zoom: 15
+      });
+      this.marker = new google.maps.Marker({
+        position: { lat: 48.266512, lng: 16.449592 },
+        map: this.map
+      });
+      }
+    }
   }
-}
+
