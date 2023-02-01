@@ -92,7 +92,7 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-email-composer": {},
       "cordova-plugin-ionic": {
-        "APP_ID": "d1509f94",
+        "APP_ID": "9278c9be",
         "CHANNEL_NAME": "Production",
         "UPDATE_METHOD": "background",
         "MAX_STORE": "2",
