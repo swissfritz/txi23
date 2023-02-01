@@ -22,6 +22,11 @@ export class AppComponent {
       icon: ''
     },
     {
+      title: 'Rückmeldung',
+      url: 'Feedback',
+      icon: ''
+    },
+    {
       title: 'Geöffnet / Anrufen',
       url: '/open',
       icon: ''

@@ -1,9 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import { GoogleMaps, GoogleMapsEvent, LatLng, MarkerOptions, Marker } from '@ionic-native/google-maps/ngx';
-import { Platform } from '@ionic/angular';
-
-
 declare let google;
 
 @Component({
